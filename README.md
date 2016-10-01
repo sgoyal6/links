@@ -15,6 +15,8 @@
 
 7. [tablesorter](https://mottie.github.io/tablesorter/docs/) - Table that can be sorted by clicking on column-headers. Lots of plugins.
 
+8. [notify.js](https://notifyjs.com/) - Eases notification creation.
+
 
 
 
