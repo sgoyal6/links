@@ -5,7 +5,7 @@
 
 2. [prettify](https://github.com/google/code-prettify) - Pretty-printer for code (not an editor). Easy to use.
 
-3. [w2ui](http://w2ui.com/web/demo) - Most common UI widgets: Layout, Grid, Sidebar, Tabs, Toolbar, Popup, Field Controls and Forms.
+3. [w2ui](http://w2ui.com/web/demo) - Most common UI widgets: Layout, resizable-grid, sidebar, tabs, toolbar, popup etc.
 
 4. [jsonform](https://github.com/joshfire/jsonform) - Creates forms by writing just a JSON schema - Handles code-editors, WYSIWYG editors etc.
 
