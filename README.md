@@ -18,5 +18,21 @@
 8. [notify.js](https://notifyjs.com/) - Eases notification creation.
 
 
+# Time-series Databases
 
+1. [List of all timeseries databases](http://www.erol.si/2015/01/the-complete-list-of-all-timeseries-databases-for-your-iot-project/)
+
+2. [OpenTS-DB to Kairos-DB](http://www.erol.si/2015/01/why-i-switched-from-opentsdb-to-kairosdb/)
+
+
+# Graphs for metrics
+
+1. [Grafana](http://docs.grafana.org/installation/)
+
+2. [Feed Grafana from Graphite](http://docs.grafana.org/datasources/graphite/)
+
+
+# Monitoring
+
+1. [Several ways to monitor your linux machine](http://www.netinstructions.com/how-to-monitor-your-linux-machine/)
 
