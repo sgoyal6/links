@@ -17,6 +17,8 @@
 
 8. [notify.js](https://notifyjs.com/) - Eases notification creation.
 
+9. [json-formatter.js](http://azimi.me/json-formatter-js/) - Cool JSON formatter with expandable json-trees.
+
 
 # Time-series Databases
 
