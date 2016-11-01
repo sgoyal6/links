@@ -19,6 +19,8 @@
 
 9. [json-formatter.js](http://azimi.me/json-formatter-js/) - Cool JSON formatter with expandable json-trees.
 
+10. [json-query](https://www.npmjs.com/package/json-query) - Ability to query JSON data objects.
+
 
 # Time-series Databases
 
