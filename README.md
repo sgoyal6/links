@@ -21,6 +21,8 @@
 
 10. [json-query](https://www.npmjs.com/package/json-query) - Ability to query JSON data objects.
 
+11. [Font Aswesome](http://fontawesome.io/) - Free library with 675 free icons, very easy to use.
+
 
 # Time-series Databases
 
