@@ -21,7 +21,7 @@
 
 10. [json-query](https://www.npmjs.com/package/json-query) - Ability to query JSON data objects.
 
-11. [Font Aswesome](http://fontawesome.io/) - Free library with 675 free icons, very easy to use.
+11. [Font Awesome](http://fontawesome.io/) - Free library with 675 free icons, very easy to use.
 
 
 
@@ -56,3 +56,7 @@
 
 1. [Java Decompiler](https://github.com/java-decompiler/jd-gui)
 
+
+# Linux
+
+1. [Linux ate my ram.com](http://www.linuxatemyram.com/play.html) - Magic of disk caching. Counted under used but still available to the applications for their own use.
