@@ -23,7 +23,7 @@
 
 11. [Font Awesome](http://fontawesome.io/) - Free library with 675 free icons, very easy to use.
 
-
+12. [moment js](http://momentjs.com/docs/#/parsing/) - Free library for working with dates in JavaScript
 
 
 # Time-series Databases
