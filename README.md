@@ -66,3 +66,5 @@
 3. [tcpdump](http://www.tcpdump.org/tcpdump_man.html) - Used to analyze network traffic in conjunction with [wireshark](https://en.wikipedia.org/wiki/Wireshark)
 
 4. [seq - Generate sequence numbers](https://linux.die.net/man/1/seq)
+
+5. [dd](http://ss64.com/bash/dd.html) - Create files with random data, wipe hard disk, convert and copy files
