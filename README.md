@@ -61,4 +61,6 @@
 
 1. [Linux ate my ram.com](http://www.linuxatemyram.com/play.html) - Magic of disk caching. Counted under used but still available to the applications for their own use.
 
-2. [tc - Traffic Control](https://linux.die.net/man/8/tc) - Controls traffic on a port by limiting bandwidth, filtering by policies or re-scheduling-to-avoid-bursts. 
+2. [tc - Traffic Control](https://linux.die.net/man/8/tc) - Controls traffic on a port by limiting bandwidth, filtering by policies or re-scheduling-to-avoid-bursts.
+
+3. [seq - Generate sequence numbers](https://linux.die.net/man/1/seq)
