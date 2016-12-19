@@ -68,3 +68,5 @@
 4. [seq - Generate sequence numbers](https://linux.die.net/man/1/seq)
 
 5. [dd](http://ss64.com/bash/dd.html) - Create files with random data, wipe hard disk, convert and copy files
+
+6. [stress-ng](https://websetnet.com/how-to-stress-test-cpu-and-memory-vm-on-a-linux-and-unix-with-stress-ng/) - Stress test cpu, memory, drive, I/O, sockets and many more resources on Linux
