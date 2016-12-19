@@ -63,4 +63,6 @@
 
 2. [tc - Traffic Control](https://linux.die.net/man/8/tc) - Controls traffic on a port by limiting bandwidth, filtering by policies or re-scheduling-to-avoid-bursts.
 
-3. [seq - Generate sequence numbers](https://linux.die.net/man/1/seq)
+3. [tcpdump](http://www.tcpdump.org/tcpdump_man.html) - Used to analyze network traffic in conjunction with [wireshark](https://en.wikipedia.org/wiki/Wireshark)
+
+4. [seq - Generate sequence numbers](https://linux.die.net/man/1/seq)
