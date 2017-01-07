@@ -54,7 +54,20 @@
 
 # Java
 
-1. [Java Decompiler](https://github.com/java-decompiler/jd-gui)
+1. [Java Decompiler](https://github.com/java-decompiler/jd-gui) - JD-GUI is a standalone graphical utility that displays Java source codes of ".class" files
+
+2. [DoubleBraceInitialization](http://wiki.c2.com/?DoubleBraceInitialization) - Initialise collections during declaration. Example:
+```java
+Map<String, List<String>> TWEETERS_DB = new HashMap<String, List<String>>() {{
+    put("foo.com/blog/1", Arrays.asList("sally", "bob", "tim", "george", "nathan"));
+    put("engineering.twitter.com/blog/5", Arrays.asList("adam", "david", "sally", "nathan"));
+    put("tech.backtype.com/blog/123", Arrays.asList("tim", "mike", "john"));
+  }};
+```
+The first brace creates a new AnonymousInnerClass, the second declares an **instance initializer block** that is run when the anonymous inner class is instantiated.
+Disadvantages:
+- If you serialise the collection you will also serialise everything in the outer class.
+- Can fail comparison by equals() method if class-equality is checked in the equals() method.
 
 
 # Linux
