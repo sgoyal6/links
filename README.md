@@ -91,3 +91,11 @@ Disadvantages:
 1. [Chrome Sense Plugin](https://chrome.google.com/webstore/detail/sense-beta/lhjgkmllcaadmopgmanpapmpjgmfcfig?hl=en) - A JSON aware developer console to ElasticSearch
 
 2. [Elastic Search Toolbox](https://chrome.google.com/webstore/detail/elasticsearch-toolbox/focdbmjgdonlpdknobfghplhmafpgfbp?hl=en-US) - Query Builder for ElasticSearch
+
+
+# Vim plugins and scripts
+
+1. [nerdtree](https://github.com/scrooloose/nerdtree) - File explorer alongside vim
+
+2. [vim-nerdtree-tabs](https://github.com/jistr/vim-nerdtree-tabs) - Helps to get a single nerdtree for all tabs
+
