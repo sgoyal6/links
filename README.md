@@ -99,3 +99,8 @@ Disadvantages:
 
 2. [vim-nerdtree-tabs](https://github.com/jistr/vim-nerdtree-tabs) - Helps to get a single nerdtree for all tabs
 
+3. `nmap gc :NERDTreeFind<CR>` - locate current file in the NERDTree using gc
+
+4. `nmap gg <C-w><C-w>` - Map gg to Ctrl-w + Ctrl-w - Helps to cycle between NERDTree window and the editor using gg
+
+5. `gt` - cycle between the tabs
