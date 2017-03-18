@@ -86,7 +86,7 @@ Disadvantages:
 
 7. [sar -q \<interval\> \<count\>](https://linux.die.net/man/1/sar) - Report queue length and load averages for the CPU every given interval and for a given number of counts. One of the output parameters - `runq-sz`  is the number of kernel threads in memory that are waiting for a CPU to run. **Typically, this value should be less than 2. Consistently higher values mean that the system might be CPU-bound.**
 
-8. [~.](https://www.cyberciti.biz/faq/openssh-linux-unix-osx-kill-hung-ssh-session/) - Disconnects an SSH session. Useful to kill a hung SSH session and get back to terminal.
+8. [Tilda Dot: (~.)](https://www.cyberciti.biz/faq/openssh-linux-unix-osx-kill-hung-ssh-session/) - Disconnects an SSH session. Useful to kill a hung SSH session and get back to terminal.
 
 
 
