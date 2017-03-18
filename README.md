@@ -84,6 +84,8 @@ Disadvantages:
 
 6. [stress-ng](https://websetnet.com/how-to-stress-test-cpu-and-memory-vm-on-a-linux-and-unix-with-stress-ng/) - Stress test cpu, memory, drive, I/O, sockets and many more resources on Linux
 
+7. [sar -q \<interval\> \<count\>](https://linux.die.net/man/1/sar) - Report queue length and load averages for the CPU every given interval and for a given number of counts. One of the output parameters - `runq-sz`  is the number of kernel threads in memory that are waiting for a CPU to run. **Typically, this value should be less than 2. Consistently higher values mean that the system might be CPU-bound.**
+
 
 
 # Tools and software
