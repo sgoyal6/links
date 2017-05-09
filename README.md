@@ -25,6 +25,8 @@
 
 12. [moment js](http://momentjs.com/docs/#/parsing/) - Free library for working with dates in JavaScript
 
+13. [multiple dropdown selector](http://wenzhixin.net.cn/p/multiple-select/docs/)
+
 
 # Time-series Databases
 
