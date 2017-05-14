@@ -110,3 +110,8 @@ Disadvantages:
 4. `nmap gg <C-w><C-w>` - Map gg to Ctrl-w + Ctrl-w - Helps to cycle between NERDTree window and the editor using gg
 
 5. `gt` - cycle between the tabs
+
+
+# Client-Server
+
+1. [Does ServerSocket.accept() return socket on arbitrary port?](http://stackoverflow.com/questions/17731247/does-serversocket-accept-return-socket-on-arbitrary-port) - No. The `Socket` returned by ServerSocket.accept() is bound to the same port as the `ServerSocket` but it also contains information about the client's port number and that information is enough to disambiguate the target-socket of messages coming to the server.
