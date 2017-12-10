@@ -115,3 +115,18 @@ Disadvantages:
 # Client-Server
 
 1. [Does ServerSocket.accept() return socket on arbitrary port?](http://stackoverflow.com/questions/17731247/does-serversocket-accept-return-socket-on-arbitrary-port) - No. The `Socket` returned by ServerSocket.accept() is bound to the same port as the `ServerSocket` but it also contains information about the client's port number and that information is enough to disambiguate the target-socket of messages coming to the server.
+
+
+# iTerm2
+[iTerm2](https://www.iterm2.com/index.html) is a versatile terminal with lots of features.  
+Some of its Mac shortcuts are:
+
+1. `cmd-d`: Split veritcally.
+2. `cmd-shift-d`: Split horizontally.
+3. `cmd-alt-<arrow-keys>`: Navigate among split panes.
+4. `cmd-shift-enter`: Maximize current pane and hide all the others.
+5. `cmd-;`: Autocomplete by matching words in current scrollback.
+6. `cmd-shift-h`: Show history of copied text.
+7. `cmd-opt-b`: Shows state of screen at various points in the past. Navigate time by right/left arrow keys.
+8. `Preferences -> Profiles -> Window -> Transparency`: Increase the transparency a little bit to see the background text. Very useful.
+9. `cmd-opt-e`: Search in all tabs at once.
