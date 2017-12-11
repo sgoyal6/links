@@ -119,20 +119,19 @@ Disadvantages:
 
 # iTerm2
 [iTerm2](https://www.iterm2.com/index.html) is a versatile terminal with lots of features.  
-Some of its Mac shortcuts are:
+Some of its most useful Mac shortcuts are:
 
 1. `cmd-d`: Split pane veritcally.
 2. `cmd-shift-d`: Split pane horizontally.
 3. `cmd-alt-<arrow-keys>`: Navigate among split panes.
 4. `cmd-shift-enter`: Maximize current pane and hide all the others.
-5. `cmd-;`: Autocomplete by matching words in current scrollback.
-6. `cmd-shift-h`: Show history of copied text.
-7. `cmd-alt-b`: Shows state of screen at various points in the past. Navigate time by right/left arrow keys.
-8. `Preferences -> Profiles -> Window -> Transparency`: Increase the transparency a little bit to see the background text. Very useful.
+5. `cmd-alt-i`: Send input to all panes in current tab.
+6. `cmd-alt-shift-i`: Send input to only the current pane.
+7. `cmd-;`: Autocomplete by matching words in current scrollback.
+8. `cmd-shift-h`: Show history of copied text.
 9. `cmd-alt-e`: Search in all tabs at once.
-10. Click once and then `shift-click` at other place to select and copy without dragging.
-11. `cmd-t`: Opens a new Tab which you can split in its own panes.
-12. `cmd-<number>`: Takes you directly to the tab with that number.
-13. `cmd-alt-i`: Send input to all panes in current tab.
-14. `cmd-alt-shift-i`: Send input to only the current pane.
-
+10. `cmd-alt-b`: Shows state of screen at various points in the past. Navigate time by right/left arrow keys.
+11. Click once and then `shift-click` at other place to select and copy without dragging.
+12. `cmd-t`: Opens a new Tab which you can split in its own panes.
+13. `cmd-<number>`: Takes you directly to the tab with that number.
+14. `Preferences -> Profiles -> Window -> Transparency`: Increase some transparency to see background windows. Very useful.
