@@ -117,6 +117,36 @@ Disadvantages:
 1. [Does ServerSocket.accept() return socket on arbitrary port?](http://stackoverflow.com/questions/17731247/does-serversocket-accept-return-socket-on-arbitrary-port) - No. The `Socket` returned by ServerSocket.accept() is bound to the same port as the `ServerSocket` but it also contains information about the client's port number and that information is enough to disambiguate the target-socket of messages coming to the server.
 
 
+# Load testing
+
+1. CPU
+```bash
+sysbench --test=cpu --cpu-max-prime=100000 run
+sysbench --test=cpu --cpu-max-prime=100000 --num-threads=16 run
+```
+
+2. Memory
+```bash
+sysbench --test=memory --num-threads=16 --memory-block-size=4K --memory-total-size=100G --memory-oper=write run
+sysbench --test=memory --num-threads=16 --memory-block-size=4K --memory-total-size=100G --memory-oper=read run
+```
+
+3. Network
+
+See [this tutorial](https://www.davidklee.net/2015/10/13/network-throughput-testing-with-iperf3/) or [this tutorial](http://www.e2college.com/blogs/linux/linux_networking/iperf3_tutorial.html).
+Can be installed through yum
+```bash
+yum install iperf3
+```
+
+4. Disk IO
+
+```bash
+sysbench --test=fileio --file-total-size=300G --file-num=16 prepare
+for each in 16 32 64; do sysbench --test=fileio --file-total-size=300G --file-test-mode=rndrd --max-time=240 --max-requests=0 --file-block-size=4K --file-num=16 --num-threads=$each run; sleep 10; done
+```
+
+
 # iTerm2
 [iTerm2](https://www.iterm2.com/index.html) is a versatile terminal with lots of features.  
 Some of its most useful Mac shortcuts are:
