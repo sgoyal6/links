@@ -90,6 +90,7 @@ Disadvantages:
 
 8. [Tilda Dot: (~.)](https://www.cyberciti.biz/faq/openssh-linux-unix-osx-kill-hung-ssh-session/) - Disconnects an SSH session. Useful to kill a hung SSH session and get back to terminal.
 
+9. [dmesg -T](http://man7.org/linux/man-pages/man1/dmesg.1.html) - **D**river **mes**sa**g**es - View errors reported by device drivers to see if there are any hardware failures.
 
 
 # Tools and software
