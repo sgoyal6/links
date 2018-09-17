@@ -72,6 +72,13 @@ Disadvantages:
 - Can fail comparison by equals() method if class-equality is checked in the equals() method.
 
 
+3. Running a server in the background on a remote machine:
+```bash
+nohup java -Xms4g -Xmx6g -jar target/dependency/jetty-runner.jar target/*.war >& process.log &
+```
+[nohup](https://en.wikipedia.org/wiki/Nohup) allows the process to run even after the ssh-shell to remote-server is closed.
+
+
 # Linux
 
 1. [Linux ate my ram.com](http://www.linuxatemyram.com/play.html) - Magic of disk caching. Counted under used but still available to the applications for their own use.
